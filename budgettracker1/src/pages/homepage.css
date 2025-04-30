@@ -1,0 +1,130 @@
+.home-container {
+  background-color: #dcdcdc;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.welcome-text {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logout-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.budget-overview {
+  background: #666;
+  padding: 50px;
+  border-radius: 10px;
+  width: 60%;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.overview-title {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.budget-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.budget-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.budget-value {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: lightgreen;
+}
+
+.amount-line {
+  flex-grow: 1;
+  height: 2px;
+  background: black;
+  margin: 0 10px;
+}
+
+.percentage-bar-container {
+  position: relative;
+  background-color: #ccc;
+  border-radius: 10px;
+  height: 12px;
+  margin: 8px 0;
+  width: 100%;
+  flex: 2;
+  margin: 0 20px;
+}
+
+.percentage-bar {
+  background-color: lightgreen;
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.3s ease-in-out;
+}
+
+.percentage-label {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 2px black;
+}
+
+.actions-container {
+  background: #666;
+  padding: 50px;
+  border-radius: 10px;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.action-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.action-icon {
+  background: black;
+  padding: 10px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.action-item:hover {
+  background-color: #ccc;
+}
+.home-container {
+  padding-top: 60px; /* Adjust this to match header height */
+}
