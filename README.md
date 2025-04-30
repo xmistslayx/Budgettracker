@@ -30,5 +30,5 @@ MongoDB or MySQL database
 
 Installation
 Clone the repository:```bash
-git clone https://github.com/yourusername/budget-tracker.git
+git clone (https://github.com/xmistslayx/Budgettracker)
 cd budget-tracker
